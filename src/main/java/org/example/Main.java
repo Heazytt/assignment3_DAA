@@ -10,7 +10,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        String inputPath  = args.length > 0 ? args[0] : "input_for_tests.json";
+        String inputPath  = args.length > 0 ? args[0] : "sparse_graphs.json";
         String outputPath = args.length > 1 ? args[1] : "output.json";
 
         ObjectMapper om = new ObjectMapper();
