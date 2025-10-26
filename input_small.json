@@ -1,0 +1,135 @@
+{
+  "graphs": [
+    {
+      "id": 1,
+      "nodes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "edges": [
+        {
+          "from": "A",
+          "to": "B",
+          "weight": 1
+        },
+        {
+          "from": "A",
+          "to": "D",
+          "weight": 5
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "weight": 8
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nodes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "edges": [
+        {
+          "from": "A",
+          "to": "B",
+          "weight": 1
+        },
+        {
+          "from": "A",
+          "to": "C",
+          "weight": 7
+        },
+        {
+          "from": "A",
+          "to": "D",
+          "weight": 17
+        },
+        {
+          "from": "A",
+          "to": "E",
+          "weight": 18
+        },
+        {
+          "from": "B",
+          "to": "D",
+          "weight": 11
+        },
+        {
+          "from": "C",
+          "to": "D",
+          "weight": 14
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nodes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "edges": [
+        {
+          "from": "A",
+          "to": "B",
+          "weight": 5
+        },
+        {
+          "from": "A",
+          "to": "C",
+          "weight": 11
+        },
+        {
+          "from": "A",
+          "to": "D",
+          "weight": 3
+        },
+        {
+          "from": "A",
+          "to": "E",
+          "weight": 8
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "weight": 10
+        },
+        {
+          "from": "C",
+          "to": "E",
+          "weight": 2
+        },
+        {
+          "from": "C",
+          "to": "F",
+          "weight": 12
+        },
+        {
+          "from": "D",
+          "to": "E",
+          "weight": 4
+        },
+        {
+          "from": "D",
+          "to": "F",
+          "weight": 3
+        },
+        {
+          "from": "E",
+          "to": "F",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}
